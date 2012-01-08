@@ -1,0 +1,12 @@
+name: CFVouchers
+version: 1.00
+author: CainFoool
+main: org.cain.cfvouchers.CFVouchers
+commands:
+   createcode:
+       description: Create a voucher code
+       usage: /createcode <codename> <amount>
+       
+   redeem:
+       description: Redeem a voucher code
+       usage: /redeem <codename>
